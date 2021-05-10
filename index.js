@@ -21,7 +21,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer.prompt(questions).then(data => {
         console.log(data.userName);
-        writeToFile('read.md', generateMarkdown(data))
+        writeToFile('readMe.md', generateMarkdown(data))
     })
 }
 
