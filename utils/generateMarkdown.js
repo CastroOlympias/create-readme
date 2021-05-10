@@ -20,28 +20,28 @@ ${data.projectDescription}
 
 ## Table of Contents
 - [User Story](#userStory)
-- [Installation instructions](#installationGuide)
-- [Usage instructions](#usage)
+- [Installation Guide](#installationGuide)
+- [Usage instructions](#usageGuide)
 - [Authors](#authors)
 - [License](#license)
 - [Resources](#resources)
 
-## User Story
+## userStory
 ${data.userStory}
 
-## Installation instructions
+## installationGuide
 ${data.installationGuide}
 
-## Usage instructions
-${data.usage}
+## usageGuide
+${data.usageGuide}
 
-## Authors
+## authors
 ${data.authors}
 
-## License
+## license
 ${data.license}
 
-## Resources
+## resources
 ${data.resources}
 
 `;
