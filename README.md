@@ -1,10 +1,11 @@
 
-<h1 align="center">we-Go!</h1>
+#we-Go!
 
-<h2>Description</h2>
-<h3> align="left"we-Go! is tourism app</h3>
+### Description
+we-Go! is a tourism app
 
-<h2>Table of Contents
+---
+### Table of Contents
 - [Description](#description)
 - [Introduction](#introduction)
 - [Challenges](#challenges)
