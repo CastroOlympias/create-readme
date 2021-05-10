@@ -7,14 +7,19 @@ const generateMarkdown = require('./utils/generateMarkdown')
 const questions = [
     {
         type: 'input',
-        name: 'userName',
-        message: 'What is your github name?'
+        name: 'yourName',
+        message: 'What is your name?'
     },
     {
         type: 'input',
-        name: 'GitHub',
-        message: 'What is your github user name?'
+        name: 'githubName',
+        message: 'What is your GitHub name?'
     },
+    {
+        type: 'input',
+        name: 'projectName',
+        message: 'What is your Prject name?'
+    }
 
 
 ];
@@ -27,7 +32,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(data => {
-        console.log(data.userName);
+        console.log(data.yourName, data.githubName, data.projectName);
         writeToFile('readMe.md', generateMarkdown(data))
     })
 }
