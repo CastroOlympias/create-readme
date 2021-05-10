@@ -57,8 +57,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(data => {
-        console.log(data.yourName, data.githubName, data.projectName);
-        writeToFile('readMe.md', generateMarkdown(data))
+        console.log(data.projectName, data.projectDescription, data.userStory, data.installationGuide, data.usage, data.authors, data.license, data.resources);
+        writeToFile('README.md', generateMarkdown(data))
     })
 }
 

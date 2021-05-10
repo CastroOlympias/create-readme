@@ -6,8 +6,8 @@ we-Go! is a tourism app, letting you easily find points of interest for site see
 
 
 ### Table of Contents
-- [User Story](#user story)
-- [Installation](#installation)
+- [User Story](#userStory)
+- [Installation](#installationGuide)
 - [Usage](#usage)
 - [Authors](#authors)
 - [License](#license)
@@ -19,7 +19,7 @@ Being locked inside too much, and winter sucks, I wanted a n easy way to explore
 
 
 ### Installation instructions
-Install using npm install inquirer
+Install using npm install inquirer.
 
 
 ### Usage instructions
@@ -35,6 +35,6 @@ This is an open source license.
 
 
 ### Resources
-CSS styles framework from Bulma (https://bulma.io/), API keys from triposo (https://www.triposo.com/api) and weatherbit.io (https://www.weatherbit.io/api)
+CSS styles framework from Bulma https://bulma.io/  API keys from triposo (https://www.triposo.com/api) and weatherbit.io (https://www.weatherbit.io/api)
 
 

@@ -20,8 +20,8 @@ ${data.projectDescription}
 
 
 ### Table of Contents
-- [User Story](#user story)
-- [Installation](#installation)
+- [User Story](#userStory)
+- [Installation](#installationGuide)
 - [Usage](#usage)
 - [Authors](#authors)
 - [License](#license)
