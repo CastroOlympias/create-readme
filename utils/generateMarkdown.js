@@ -16,7 +16,7 @@ function generateMarkdown(data) {
 <h1 align="center">${data.projectName}</h1>
 
 <h2>Description</h2>
-<h3> align="left"${data.projectDescription}</h3>
+<h3 align="left">${data.projectDescription}</h3>
 
 <h2>Table of Contents
 - [Description](#description)
