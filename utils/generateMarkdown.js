@@ -27,26 +27,32 @@ ${data.projectDescription}
 - [License](#license)
 - [Resources](#resources)
 
+---
 
 ### User Story
 ${data.userStory}
 
+--
 
 ### Installation instructions
 ${data.installationGuide}
 
+--
 
 ### Usage instructions
 ${data.usage}
 
+-
 
 ### Authors
 ${data.authors}
 
+-
 
 ### License
 ${data.license}
 
+-
 
 ### Resources
 ${data.resources}
