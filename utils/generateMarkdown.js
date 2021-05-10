@@ -18,13 +18,38 @@ function generateMarkdown(data) {
 ### Description
 ${data.projectDescription}
 
----
+
 ### Table of Contents
-- [Descriptionani](#description)
-- [Introduction](#introduction)
-- [Challenges](#challenges)
-- [Victories](#victories)
+- [User Story](#user story)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Authors](#authors)
+- [License](#license)
 - [Resources](#resources)
+
+
+### User Story
+${data.userStory}
+
+
+### Installation instructions
+${data.installationGuide}
+
+
+### Usage instructions
+${data.usage}
+
+
+### Authors
+${data.authors}
+
+
+### License
+${data.license}
+
+
+### Resources
+${data.resources}
 
 
 `;

@@ -17,8 +17,33 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'userStory',
+        message: 'Please tell us what inspired you or your to create the app?'
+    },
+    {
+        type: 'input',
         name: 'installationGuide',
         message: 'Please provide guidance for installation'
+    },
+    {
+        type: 'input',
+        name: 'usage',
+        message: 'How do you use the app?'
+    },
+    {
+        type: 'input',
+        name: 'authors',
+        message: 'Who are the contributing authors?'
+    },
+    {
+        type: 'input',
+        name: 'license',
+        message: 'Please tell us under what license this is under?'
+    },
+    {
+        type: 'input',
+        name: 'resources',
+        message: 'Please let us know of any resources you used to aid in the project?'
     }
 
 
