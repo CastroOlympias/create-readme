@@ -6,8 +6,8 @@ we-Go! is a tourism app, letting you easily find points of interest for site see
 
 ## Table of Contents
 - [User Story](#userStory)
-- [Installation](#installationGuide)
-- [Usage](#usage)
+- [Installation instructions](#installationGuide)
+- [Usage instructions](#usage)
 - [Authors](#authors)
 - [License](#license)
 - [Resources](#resources)
@@ -22,7 +22,7 @@ Install using npm install inquirer.
 From the drop down, select your country, can also type to rapidly find the country and press the search button. You'll find images of 10 cities for that country where you can then press the button to select your desired city, to then view another set of images, of points of interest for that city.
 
 ## Authors
-Tori Gonzales and Me.
+Tori Gonzales https://github.com/torigonzales and Me.
 
 ## License
 This is an open source license.
