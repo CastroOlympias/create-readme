@@ -31,7 +31,7 @@ ${data.projectDescription}
 ## Story
 ${data.userStory}
 
-## Installation Guide
+## Installation
 ${data.installationGuide}
 
 ## Usage

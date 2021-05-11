@@ -17,7 +17,7 @@ We-Go! is a tourism app, letting you easily find points of interest for site see
 ## Story
 Being locked inside too much, and winter sucks, I wanted a n easy way to explore the world again!
 
-## Installation Guide
+## Installation
 Install using npm install inquirer.
 
 ## Usage
