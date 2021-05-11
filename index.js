@@ -17,6 +17,11 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'projectImage',
+        message: 'Would you like to add an image of your project?'
+    },
+    {
+        type: 'input',
         name: 'userStory',
         message: 'Please tell us what inspired you or your to create the app?'
     },
@@ -57,7 +62,7 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then(data => {
-        console.log(data.projectName, data.projectDescription, data.userStory, data.installationGuide, data.usageGuide, data.authors, data.license, data.resources);
+        console.log(data.projectName, data.projectDescription, data.projectImage, data.userStory, data.installationGuide, data.usageGuide, data.authors, data.license, data.resources);
         writeToFile('README.md', generateMarkdown(data))
     })
 }

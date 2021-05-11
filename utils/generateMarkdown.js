@@ -17,11 +17,12 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.projectDescription}
+<img src="${data.projectImage}"/>
 
 ## Table of Contents
 - [User Story](#userStory)
 - [Installation Guide](#installationGuide)
-- [Usage instructions](#usageGuide)
+- [Usage Guide](#usageGuide)
 - [Authors](#authors)
 - [License](#license)
 - [Resources](#resources)
