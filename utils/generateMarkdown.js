@@ -21,9 +21,9 @@ ${data.projectDescription}
 <img src="${data.projectImage}"/>
 
 ## Table of Contents
-- [User Story](#User Story)
-- [Installation Guide](#Installation Guide)
-- [Usage Guide](#Usage Guide)
+- [User Story](#Story)
+- [Installation Guide](#Installation)
+- [Usage Guide](#Usage)
 - [Authors](#Authors)
 - [License](#License)
 - [Resources](#Resources)
