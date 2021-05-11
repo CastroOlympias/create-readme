@@ -21,20 +21,20 @@ ${data.projectDescription}
 <img src="${data.projectImage}"/>
 
 ## Table of Contents
-- [User Story](#Story)
-- [Installation Guide](#Installation)
-- [Usage Guide](#Usage)
+- [Story](#Story)
+- [Installation](#Installation)
+- [Usage](#Usage)
 - [Authors](#Authors)
 - [License](#License)
 - [Resources](#Resources)
 
-## User Story
+## Story
 ${data.userStory}
 
 ## Installation Guide
 ${data.installationGuide}
 
-## Usage Guide
+## Usage
 ${data.usageGuide}
 
 ## Authors
