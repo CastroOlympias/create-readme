@@ -17,32 +17,33 @@ function generateMarkdown(data) {
 
 ## Description
 ${data.projectDescription}
+
 <img src="${data.projectImage}"/>
 
 ## Table of Contents
-- [User Story](#userStory)
-- [Installation Guide](#installationGuide)
-- [Usage Guide](#usageGuide)
-- [Authors](#authors)
-- [License](#license)
-- [Resources](#resources)
+- [User Story](#User Story)
+- [Installation Guide](#Installation Guide)
+- [Usage Guide](#Usage Guide)
+- [Authors](#Authors)
+- [License](#License)
+- [Resources](#Resources)
 
-## userStory
+## User Story
 ${data.userStory}
 
-## installationGuide
+## Installation Guide
 ${data.installationGuide}
 
-## usageGuide
+## Usage Guide
 ${data.usageGuide}
 
-## authors
+## Authors
 ${data.authors}
 
-## license
+## License
 ${data.license}
 
-## resources
+## Resources
 ${data.resources}
 
 `;
