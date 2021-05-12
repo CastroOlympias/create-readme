@@ -41,9 +41,10 @@ const questions = [
         message: 'Who are the contributing authors?'
     },
     {
-        type: 'input',
+        type: 'list',
         name: 'license',
-        message: 'Please tell us under what license this is under?'
+        message: 'Please tell us under what license this is under?', 
+        choices: ['MIT', 'BSD3', 'APACHE2.0', 'NONE']
     },
     {
         type: 'input',

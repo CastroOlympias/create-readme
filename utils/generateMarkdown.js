@@ -1,22 +1,42 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (license === 'NONE') {
+    return ""
+  } else {
+    return `![githublicense](https://img.shields.io/badge/license-${license}-green.png)`
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license === 'NONE') {
+    return ""
+  } else {
+    return `\n- [License](#License) `
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (license === 'NONE') {
+    return ""
+  } else {
+    return `## License
+    ${license}`
+  }
+ }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
+${renderLicenseBadge(data.license)}
 # ${data.projectName}
 
 ## Description
-${data.projectDescription}
+  ${data.projectDescription}
 
 <img src="${data.projectImage}"/>
 
@@ -25,26 +45,25 @@ ${data.projectDescription}
 - [Installation](#Installation)
 - [Usage](#Usage)
 - [Authors](#Authors)
-- [License](#License)
 - [Resources](#Resources)
+${renderLicenseLink(data.license)}
 
 ## Story
-${data.userStory}
+  ${data.userStory}
 
 ## Installation
-${data.installationGuide}
+  ${data.installationGuide}
 
 ## Usage
-${data.usageGuide}
+  ${data.usageGuide}
 
 ## Authors
-${data.authors}
+  ${data.authors}
 
-## License
-${data.license}
+${renderLicenseSection(data.license)}
 
 ## Resources
-${data.resources}
+  ${data.resources}
 
 `;
 }
