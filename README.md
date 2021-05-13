@@ -5,7 +5,7 @@
 ## Description
   We-Go! is a tourism app, letting you easily find points of interest for site seeing, finding a place to eat with restaurant ratings, and mapping out your adventures, all while keeping an eye on the wewather.
 
-<img src="https://raw.githubusercontent.com/CastroOlympias/Best-Tours/main/screenshot.png"/>
+<iframe src="https://drive.google.com/file/d/1xKaYOCAUcs-kirsAiy_HHBwMXU9Ez5-N/preview" width="640" height="480"></iframe>
 
 ## Table of Contents
 - [Story](#Story)
