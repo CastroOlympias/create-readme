@@ -25,7 +25,7 @@ function renderLicenseSection(license) {
     return ""
   } else {
     return `## License
-    ${license}`
+    https://choosealicense.com/licenses/${license}`
   }
 }
 

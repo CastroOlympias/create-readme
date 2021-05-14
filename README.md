@@ -5,7 +5,7 @@
 ## Description
   
 
-<img src="https://github.com/CastroOlympias/create-readme/blob/main/assets/media/Untitled_%20May%2013%2C%202021%208_26%20PM%20(2).gif"/>
+<img src=""/>
 
 ## Table of Contents
 - [Story](#Story)
@@ -29,7 +29,7 @@
   
 
 ## License
-    MIT
+    https://choosealicense.com/licenses/MIT
 
 ## Resources
   
