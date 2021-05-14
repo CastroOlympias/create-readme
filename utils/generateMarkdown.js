@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (license === 'NONE') {
     return ""
   } else {
-    return `![githublicense](https://img.shields.io/badge/license-${license}-green.png)`
+    return `![githublicense](https://img.shields.io/badge/License-${license}-green.png)`
   }
 }
 
@@ -65,6 +65,9 @@ ${renderLicenseSection(data.license)}
 ## Resources
   ${data.resources}
 
+## Questions
+  ${data.githubName}
+  ${data.eMailAddress}
 `;
 }
 

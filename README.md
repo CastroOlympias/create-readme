@@ -1,5 +1,5 @@
 
-![githublicense](https://img.shields.io/badge/license-FUNK-green.png)
+![githublicense](https://img.shields.io/badge/License-MIT-green.png)
 # We-Go!
 
 ## Description
@@ -29,8 +29,11 @@
   Tori Gonzales https://github.com/torigonzales and Me.
 
 ## License
-    FUNK
+    MIT
 
 ## Resources
   CSS styles framework from Bulma https://bulma.io/  API keys from triposo https://www.triposo.com/api and weatherbit.io https://www.weatherbit.io/api
 
+## Questions
+  https://github.com/CastroOlympias
+  If you have any questions please feel free to contact me at blackcarrera@msn.com

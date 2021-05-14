@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'installationGuide',
-        message: 'Please provide guidance for installation'
+        message: 'Please provide guidance for installation:'
     },
     {
         type: 'input',
@@ -43,21 +43,30 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Please tell us under what license this is under?', 
-        choices: ['MIT', 'BSD3', 'APACHE2.0', 'FUNK', 'NONE']
+        message: 'Please tell us under what license this is under?',
+        choices: ['MIT', 'BSD3', 'APACHE2.0', 'NONE'],
     },
     {
         type: 'input',
         name: 'resources',
-        message: 'Please let us know of any resources you used to aid in the project?'
-    }
-
-
+        message: 'Please let us know of any resources you used to aid in the project:'
+    },
+    {
+        type: 'input',
+        name: 'githubName',
+        message: 'Please enter your GitHub user name:'
+    },
+    {
+        type: 'input',
+        name: 'eMailAddress',
+        message: 'Please enter your email address for any questions or comments:'
+    },
 ];
+
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    return fs.writeFileSync(path.join(process.cwd(),fileName),data)
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
 }
 
 // TODO: Create a function to initialize app
