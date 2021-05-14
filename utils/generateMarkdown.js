@@ -25,7 +25,7 @@ if (license === 'NONE') {
   return ""
 } else {
   return `## License
-  https://choosealicense.com/licenses/${license}`
+  ${license}`
 }
 }
 
