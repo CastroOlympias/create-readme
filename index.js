@@ -44,7 +44,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please tell us under what license this is under?', 
-        choices: ['MIT', 'BSD3', 'APACHE2.0', 'NONE']
+        choices: ['MIT', 'BSD3', 'APACHE2.0', 'FUNK', 'NONE']
     },
     {
         type: 'input',
