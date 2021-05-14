@@ -5,7 +5,7 @@
 ## Description
   
 
-<img src=""/>
+<img src="https://raw.githubusercontent.com/CastroOlympias/Best-Tours/main/screenshot.png"/>
 
 ## Table of Contents
 - [Story](#Story)
@@ -29,7 +29,7 @@
   
 
 ## License
-    https://choosealicense.com/licenses/MIT
+  https://choosealicense.com/licenses/MIT
 
 ## Resources
   
