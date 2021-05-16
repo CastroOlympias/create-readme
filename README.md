@@ -1,11 +1,11 @@
 
-![githublicense](https://img.shields.io/badge/License-BSD3-green.png)
+![githublicense](https://img.shields.io/badge/License-APACHE2.0-green.png)
 # We-Go!
 
 ## Description
   We-Go! is a tourism app, letting you easily find points of interest for site seeing, finding a place to eat with restaurant ratings, and mapping out your adventures, all while keeping an eye on the wewather.
 
-<img src="https://github.com/CastroOlympias/create-readme/blob/main/assets/media/Untitled_%20May%2013%2C%202021%208_26%20PM%20(2).gif"/>
+<img src="https://github.com/CastroOlympias/create-readme/blob/main/assets/media/Gif%20demo%20of%20readMe%20generator.gif"/>
 
 ## Table of Contents
 - [Story](#Story)
@@ -29,7 +29,7 @@
   Tori Gonzales https://github.com/torigonzales and Me.
 
 ## License
-  BSD3
+  APACHE2.0
 
 ## Resources
   CSS styles framework from Bulma https://bulma.io/  API keys from triposo https://www.triposo.com/api and weatherbit.io https://www.weatherbit.io/api
