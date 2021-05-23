@@ -53,13 +53,23 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'test',
+        message: 'Please provide information regarding tests if there is a test for this app:'
+    },
+    {
+        type: 'input',
         name: 'githubName',
         message: 'Please enter your GitHub user name:'
     },
     {
         type: 'input',
         name: 'eMailAddress',
-        message: 'Please enter your email address for any questions or comments:'
+        message: 'Please enter your email address:'
+    },
+    {
+        type: 'input',
+        name: 'questionsInfo',
+        message: 'Please provide additional information about the application to guide user questions that would help development:'
     },
 ];
 

@@ -65,9 +65,13 @@ ${renderLicenseSection(data.license)}
 ## Resources
   ${data.resources}
 
+## Testing
+  ${data.test}  
+
 ## Questions
   ${data.githubName}
   ${data.eMailAddress}
+  ${data.questionsInfo}
 `;
 }
 

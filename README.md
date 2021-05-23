@@ -1,11 +1,11 @@
 
-![githublicense](https://img.shields.io/badge/License-APACHE2.0-green.png)
-# We-Go!
+
+# My-Team
 
 ## Description
-  We-Go! is a tourism app, letting you easily find points of interest for site seeing, finding a place to eat with restaurant ratings, and mapping out your adventures, all while keeping an eye on the wewather.
+  This app is a command line team builder app, which outputs an html file to dist folder. I copied the css style and index.html to the root so it could be viewed on git pages, but it can only be created through the command line.
 
-<img src="https://github.com/CastroOlympias/create-readme/blob/main/assets/media/Gif%20demo%20of%20readMe%20generator.gif"/>
+<img src="https://github.com/CastroOlympias/My-Team/blob/main/assets/media/Team%20Builder%20demo.gif"/>
 
 ## Table of Contents
 - [Story](#Story)
@@ -14,26 +14,28 @@
 - [Authors](#Authors)
 - [Resources](#Resources)
 
-- [License](#License) 
 
 ## Story
-  Being locked inside too much, and winter sucks, I wanted an easy way to explore the world again!
+  Coding is pretty cool and so learning what you can do basically adds another tool to the tool box of apps and code.
 
 ## Installation
-  Install using: npm install inquirer.
+  In your terminal run: npm init, npm install inquirer, and npm install --save-dev jest.
 
 ## Usage
-  From the drop down, select your country, you can also type to rapidly find the country and press the search button. You'll find images of 10 cities for that country where you can then press the button to select your desired city, to then view another set of images of points of interest for that city.
+  in the command line, to run the test enter: npm test, or to create your team enter: node index.js.
 
 ## Authors
-  Tori Gonzales https://github.com/torigonzales and Me.
+  Just myself.
 
-## License
-  APACHE2.0
+
 
 ## Resources
-  CSS styles framework from Bulma https://bulma.io/  API keys from triposo https://www.triposo.com/api and weatherbit.io https://www.weatherbit.io/api
+  While I have a link to Bulma css frame work, I created a very simple, mobile friendly css that I think spaces the grid better than Bulma, between each card, effectively, you can have infinite columns in the row, the cards for each team member is hard coded in size for larger screens, which prevents them from stretching which can get really weird; however. When screen size for mobile devices is a factor, the cards do have some stretching due to relative size via % of the view port. This makes for a better experience of all screen sizes.
+
+## Testing
+  just run: npm test to test the employee.js concept file.  
 
 ## Questions
-  https://github.com/CastroOlympias
-  If you have any questions please feel free to contact me at blackcarrera@msn.com
+  https://github.com/CastroOlympias 
+  blackcarrera@msn.com 
+  I don’t have any other comments or questions at this time, but please feel free to reach out.
