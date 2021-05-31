@@ -18,7 +18,7 @@ const questions = [
     {
         type: 'input',
         name: 'projectImage',
-        message: 'Would you like to add an image of your project?'
+        message: 'Please provide a link to an image, video or animated GIF to your project?'
     },
     {
         type: 'input',
@@ -59,7 +59,7 @@ const questions = [
     {
         type: 'input',
         name: 'githubName',
-        message: 'Please enter your GitHub user name:'
+        message: 'Please provide a link to your GitHub profile:'
     },
     {
         type: 'input',

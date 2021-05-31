@@ -1,11 +1,11 @@
 
 
-# My-Team
+# Cloud-Notes
 
 ## Description
-  This app is a command line team builder app, which outputs an html file to dist folder. I copied the css style and index.html to the root so it could be viewed on git pages, but it can only be created through the command line.
+  Cloud-Notes is a local server based notes application that saves your notes to a simple db.json file
 
-<img src="https://github.com/CastroOlympias/My-Team/blob/main/assets/media/Team%20Builder%20demo.gif"/>
+<img src="https://raw.githubusercontent.com/CastroOlympias/Cloud-Notes/main/Screenshot.png"/>
 
 ## Table of Contents
 - [Story](#Story)
@@ -16,13 +16,13 @@
 
 
 ## Story
-  Coding is pretty cool and so learning what you can do basically adds another tool to the tool box of apps and code.
+  To learn how to store presistant data beyond just local web browser stoarge, utizling router.get,post and delete to and to serve up the notes to a weba application.
 
 ## Installation
-  In your terminal run: npm init, npm install inquirer, and npm install --save-dev jest.
+  npm install express for the moduel dependency
 
 ## Usage
-  in the command line, to run the test enter: npm test, or to create your team enter: node index.js.
+  Just press Get started, enter a title for your not and then jot down your notes, once done press the old floppy disk save icon in the upper right corer, and press the trash bin delete icon to remove notes.
 
 ## Authors
   Just myself.
@@ -30,12 +30,12 @@
 
 
 ## Resources
-  While I have a link to Bulma css frame work, I created a very simple, mobile friendly css that I think spaces the grid better than Bulma, between each card, effectively, you can have infinite columns in the row, the cards for each team member is hard coded in size for larger screens, which prevents them from stretching which can get really weird; however. When screen size for mobile devices is a factor, the cards do have some stretching due to relative size via % of the view port. This makes for a better experience of all screen sizes.
+  Just npm install express to get the server running.
 
 ## Testing
-  just run: npm test to test the employee.js concept file.  
+  no test used.  
 
 ## Questions
-  https://github.com/CastroOlympias 
-  blackcarrera@msn.com 
-  I don’t have any other comments or questions at this time, but please feel free to reach out.
+  CastroOlympais
+  blackcarrera@msn.com
+  No additional information.
