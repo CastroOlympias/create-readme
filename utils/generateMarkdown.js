@@ -70,8 +70,11 @@ ${renderLicenseSection(data.license)}
 
 ## Questions
   Git Hub Link: ${data.githubName}
+  <br>
   eMail address: ${data.eMailAddress}
+  <br>
   Additional Information: ${data.questionsInfo}
+  <br>
 `;
 }
 
